@@ -31,29 +31,11 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>
-                        <input type="text" value="73329e03d413ec28c38cbcf775bbe760" onclick="copyToClipboard()" id="password">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span class="tooltiptext" id="myTooltip"></span>
-                    </td>
+                    <td>73329e03d413ec28c38cbcf775bbe760</td>
                 </tr>
             </tbody>
         </table>
     </div>
-
-    <script>
-        function copyToClipboard() {
-            var copyText = document.getElementById("password");
-            copyText.select();
-            document.execCommand("Copy");
-
-            var tooltip = document.getElementById("myTooltip");
-            tooltip.innerHTML = "Copied: " + copyText.value;
-        }
-    </script>
 </body>
 
 </html>
